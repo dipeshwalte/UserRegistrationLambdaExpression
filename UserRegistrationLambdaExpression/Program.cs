@@ -51,7 +51,7 @@ namespace UserRegistrationLambdaExpression
             static void Main(string[] args)
             {
                 string firstNamePattern = "[A-Z][a-z]{2,}";
-                string[] firstNameInputs = { "dipesh", "Dipesh", "Di", "Dinesh", "Dha", "Dhanesh" };
+                string[] firstNameInputs = { "dipesh1", "Dipesh", "Di", "Dinesh", "Dha", "Dhanesh" };
                 ValidatePatternUsingLambda(firstNamePattern, firstNameInputs, "First Name");
 
                 string lastNamePattern = "[A-Z][a-z]{2,}";
